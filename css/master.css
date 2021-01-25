@@ -13,6 +13,8 @@
   border: 15px solid #fff;
   border-radius: 100px;
   padding: 80px;
+  background-position: center;
+  background-size: cover;
 }
 
 .layouter{
@@ -24,19 +26,18 @@
 
 /* sezione immagini */
 #torino{
-  background: url("../img/torino.jpg");
-  background-position: center;
-
+  background-image: url("../img/torino.jpg");
+  /* background-position: center; */
 }
 
 #amsterdam{
-  background: url("../img/amsterdam.jpg");
-  background-position: center;
+  background-image: url("../img/amsterdam.jpg");
+  /* background-position: center; */
 }
 
 #newyork{
-  background: url("../img/newyork.jpg");
-  background-position: center;
+  background-image: url("../img/newyork.jpg");
+  /* background-position: center; */
 }
 
 /* sezione testo */
